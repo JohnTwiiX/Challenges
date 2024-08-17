@@ -12,6 +12,7 @@ Register as a user with administrator privileges.
 
 - user modal
 - user registration
+- Burpsuite
 
 ## My Way
 
