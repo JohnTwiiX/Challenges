@@ -6,7 +6,7 @@ Improper Input Validation
 
 ## Description
 
-Register as a user with administrator privileges.
+This exploit demonstrates the use of Burp Suite to gain `administrative privileges` by `manipulating an HTTP request` during user registration. The process involves modifying the submitted user credentials so that the new user's role is set to `"admin"` instead of the default `"customer"` role.
 
 ## What do I need?
 

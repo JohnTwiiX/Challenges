@@ -6,7 +6,7 @@ Broken Authentication
 
 ## Description
 
-Reset the password of **Bjoern's internal account** via the **Forgot Password** mechanism with the original answer to his security question.
+This exploit shows how to reset `Bjoern's internal account` password via the `forgot password mechanism` by answering the `security question` using `publicly available information`.
 
 ## What do I need?
 
@@ -20,9 +20,10 @@ Reset the password of **Bjoern's internal account** via the **Forgot Password** 
 ![alt text](emails-2.png)
 - I see a lot of the same email addresses with "**juice-sh.op**". From this I conclude that this is the internal email address and possibly the first name is packed in front of it
 
-- I go to the URL **/forgot-password** and enter the email "**bjoern@juice-sh.op**".
+- I go to the URL **/forgot-password** and enter the email "**<bjoern@juice-sh.op>**".
 ![alt text](password.png)
 - Now I see Björn’s **security question**
+- `"Your ZIP/postal code when you were a teenager?"`
 
 - Now I'm looking to see if I can find out more information and followed the [Facebook](https://www.facebook.com/owasp.juiceshop) link.
 Then I saw the full name of "**Björn Kimminich**"
@@ -44,4 +45,4 @@ Then I saw the full name of "**Björn Kimminich**"
 ![alt text](sip-code-2.png)
 - now I'm trying the old zip code
 
-- **It worked!** I reset the password of **bjoern@juice-sh.op** via the **Forgot Password** mechanism with the original answer to his security question
+- **It worked!** I reset the password of **<bjoern@juice-sh.op>** via the **Forgot Password** mechanism with the original answer to his security question

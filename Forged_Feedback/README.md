@@ -6,7 +6,7 @@ Broken Access Control
 
 ## Description
 
-Post some feedback in another user's name.
+This exploit takes advantage of an access control vulnerability to `post feedback on behalf of another user`. By `manipulating the HTTP request`, the user can change the `UserID` in the feedback form and thus post comments on behalf of `another user`.
 
 ## What do I need?
 
